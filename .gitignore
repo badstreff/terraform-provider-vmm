@@ -1,0 +1,3 @@
+cmd/terraform-provider-vmm/terraform-provider-vmm
+cmd/cli
+scripts/scrub-org-data.sh
