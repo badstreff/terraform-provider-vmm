@@ -13,7 +13,7 @@ Refer to the examples directory for the resources available from this provider.
 Testing
 ---
 
-TODO :(
+Tests are still very much a wip, currently no integrations tests and only some unit tests.
 
 Contributing
 ---
