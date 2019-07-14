@@ -49,7 +49,7 @@ RUN apt-get update \
         github.com/hashicorp/terraform \
         github.com/vadimi/go-http-ntlm 2>&1 \
     && mkdir -p /go/src/github.com/badstreff \
-    && ln -s /workspaces/terraform-provider-vmm /go/src/github.com/badstreff/terraform-provider-vmm \
+    && ln -s /workspaces/terraform-provider-vmm $GOPATH/src/github.com/badstreff/terraform-provider-vmm \
     #
     # Clean up
     && apt-get autoremove -y \
