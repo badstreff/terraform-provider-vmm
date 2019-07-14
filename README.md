@@ -1,5 +1,6 @@
 [![CodeFactor](https://www.codefactor.io/repository/github/badstreff/terraform-provider-vmm/badge)](https://www.codefactor.io/repository/github/badstreff/terraform-provider-vmm)
 [![codecov](https://codecov.io/gh/badstreff/terraform-provider-vmm/branch/master/graph/badge.svg)](https://codecov.io/gh/badstreff/terraform-provider-vmm)
+[![Build Status](https://travis-ci.org/badstreff/terraform-provider-vmm.svg?branch=master)](https://travis-ci.org/badstreff/terraform-provider-vmm)
 
 Terraform Provider VMM
 ---
