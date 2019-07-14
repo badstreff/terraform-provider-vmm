@@ -10,7 +10,7 @@ Terraform provider for Microsoft's System Center Virtual Machine Manager product
 Usage
 ---
 
-Refer to the examples directory for the resources available from this provider.
+Refer to the examples [here](examples/README.md) for the resources available from this provider.
 
 
 Contributing
