@@ -6,8 +6,9 @@ go:
 before_install:
   - go get -t -v ./...
 
+before_script: cd $GOPATH/src/github.com/badstreff/terraform-provider-vmm/pkg
 script:
-  - go test -race -coverprofile=coverage.txt -covermode=atomic $GOPATH/src/github.com/badstreff/terraform-provider-vmm/pkg/spf-vmm-api/getting
+  - go test -race -coverprofile=coverage.txt -covermode=atomic ./...
 
 after_success:
   - bash <(curl -s https://codecov.io/bash)
