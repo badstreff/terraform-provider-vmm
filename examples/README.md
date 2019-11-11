@@ -6,7 +6,7 @@ provider "vmm" {
   username = "My-SPF-VMM-User"
   password = "secret-password"
   domain   = "example.com"
-  stamp_id = "My-Unique-Stamp-Id
+  stamp_id = "My-Unique-Stamp-Id"
 }
 
 resource "vmm_virtual_disk_drive" "drive" {
@@ -15,13 +15,13 @@ resource "vmm_virtual_disk_drive" "drive" {
   file_name = "test_disk"
   lun = 1
   scsi = true
-  stamp_id = "My-Unique-Stamp-Id
+  stamp_id = "My-Unique-Stamp-Id"
   hard_disk_name = "Blank Disk - Small.vhdx"
 }
 
 resource "vmm_virtual_machine" "vm" {
   vm_name = "MyNewVM"
-  stamp_id = "My-Unique-Stamp-Id
+  stamp_id = "My-Unique-Stamp-Id"
   cloud_name = "Production"
   template_name = "ha-rhel-7"
 
